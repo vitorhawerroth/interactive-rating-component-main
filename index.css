@@ -1,0 +1,94 @@
+
+body{
+    background-color: #7743DB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background-color:#61A3BA;
+    border-radius: 1rem;
+    width:  350px;
+    border:  black;
+    color: blue;
+    color: white;
+}
+.description{
+    font-size: 14px;
+    color: var(--Medium-Grey);
+    margin-bottom: 1rem;
+}
+
+.ratings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: black;
+    cursor: pointer;
+}
+.ratings span{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF0CE;
+    border-radius: 50%;
+}
+
+
+.submit_btn{
+    background-color: orange;
+    color: black;
+    width: 100%;
+    height: 20px;
+    border-radius: 2rem;
+    padding: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 2s;
+}
+.fafas:hover{
+    background-color: white;
+    color: #9EDDFF;
+}
+
+.hidden{
+    display: none;
+}
+.Card_conteiner{
+    padding: 2rem;
+}
+.star_icon{
+    background-color: #7743DB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    width: fit-content;
+}   
+.title{
+    color: white;
+    margin-bottom: 1rem;
+}
+.ratings span:hover{
+    background-color: #D0BFFF;
+    color: #64CCC5;
+}
+.thank_section {
+    text-align: center;
+}
+.chip{
+    background-color: gray;
+    width: fit-content;
+    margin: 1rem auto;
+    color: orange;
+    font-size: 14px;
+    padding: 0.7rem;
+    border-radius:2%;
+}
